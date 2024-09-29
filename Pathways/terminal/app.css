@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geniş Sayt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Xoş Gəlmisiniz!</h1>
+    </header>
+    <nav>
+        <a href="#home">Ana Səhifə</a>
+        <a href="#about">Haqqımızda</a>
+        <a href="#services">Xidmətlər</a>
+        <a href="#contact">Əlaqə</a>
+    </nav>
+    <section id="home">
+        <h2>Ana Səhifə</h2>
+        <p>Bu, ana səhifənin məzmunudur.</p>
+    </section>
+    <section id="about">
+        <h2>Haqqımızda</h2>
+        <p>Bu, haqqımızda səhifəsinin məzmunudur.</p>
+    </section>
+    <section id="services">
+        <h2>Xidmətlər</h2>
+        <p>Bu, xidmətlər səhifəsinin məzmunudur.</p>
+    </section>
+    <section id="contact">
+        <h2>Əlaqə</h2>
+        <p>Bu, əlaqə səhifəsinin məzmunudur.</p>
+    </section>
+</body>
+</html>
